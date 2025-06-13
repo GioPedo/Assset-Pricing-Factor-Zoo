@@ -1,5 +1,3 @@
-# factor_zoo_project/README.md
-
 # Asset Pricing & Machine Learning: Factor Zoo
 
 ## Objective
