@@ -6,7 +6,7 @@ Predict future stock returns using a wide array of explanatory variables ("facto
 ## Project Structure
 
 ```
-factor-zoo-asset-pricing/
+.
 │
 ├── README.md                  # Project description
 ├── data/
