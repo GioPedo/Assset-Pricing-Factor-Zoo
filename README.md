@@ -7,22 +7,24 @@ Predict future stock returns using a wide array of explanatory variables ("facto
 
 ```
 .
-│
-├── README.md                  # Project description
 ├── data/
-│   ├── raw/                   # Original data (Fama-French, Yahoo)
-│   └── processed/             # Final dataset with features + target
+│   ├── raw/                   # Original data
+│   ├── processed/
+│   └── derivatives/
 ├── notebooks/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_feature_engineering.ipynb
 │   ├── 03_model_linear.ipynb
 │   ├── 04_model_ml.ipynb
-│   └── 05_evaluation.ipynb
+│   ├── 05_evaluation.ipynb
+│   └── 06__derivatives_signals.ipynb
 ├── models/
-│   └── pricing_model.py       # Model classes
+│   └── pricing_model.py      # Model classes
 ├── utils/
-│   └── data_loader.py         # Functions for downloading and cleaning data
-└── requirements.txt
+│   ├── data_loader.py        # Functions for downloading and cleaning data
+│   └── options_loader.py
+├── main.py
+└──README.md                  # This file
 ```
 
 ## Models
