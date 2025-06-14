@@ -1,7 +1,7 @@
 # Asset Pricing & Machine Learning: Factor Zoo
 
 ## Objective
-Predict future stock returns using a wide array of explanatory variables ("factor zoo") by applying both linear and machine learning models. The goal is to identify robust predictive signals and evaluate their out-of-sample performance.
+Predict future stock returns using a wide array of explanatory variables (_"factor zoo"_) by applying both linear and machine learning models. The **goal** is to identify robust predictive signals and evaluate their out-of-sample performance.
 
 ## Project Structure
 
@@ -38,6 +38,7 @@ Predict future stock returns using a wide array of explanatory variables ("facto
 - **Financial factors**: Kenneth French (Size, Value, Momentum, etc.)
 - **Price data**: Yahoo Finance (via yfinance)
 - **Fundamentals**: Alpha Vantage, Kaggle (e.g. ROE, leverage, P/E)
+- **Derivatives data**: Implied Volatility, Skew, Put/Call Ratio
 
 ## Data frequency
 - Monthly, panel format (stock-month): one row per stock per month
@@ -46,7 +47,7 @@ Predict future stock returns using a wide array of explanatory variables ("facto
 - One-month-ahead realized return (`return_next_month`)
 
 ## Tech Stack
-- Python, pandas, sklearn, xgboost, matplotlib, seaborn, statsmodels
+- Python (via Spyder IDE)
 - Jupyter Notebook
 
 ---
